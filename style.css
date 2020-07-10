@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Nunito Sans';
+}
+
+p {
+  margin: 20px 10px 20px 0px;
+  font-family: Chivo;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+svg, i {
+  color: #82b680;
+}
+
+/* Navbar */
+
+nav {
+  width: 100%;
+  border: none;
+  align-items: center;
+  margin: 0;
+  padding-left: -20px;
+  background: #A3E4A1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Nunito Sans';
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: right;
+  padding: 20px;
+}
+
+.logo {
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+#navbar-sign-up {
+  font-family: Chivo;
+  background: white;
+  opacity: 90%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Jumbotron */
+
+#jumbotron {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 20px 0px 60px 50px;
+}
+
+#jumbotron-text {
+  width: 40%;
+}
+
+#jumbotron-title {
+  font-size: 52px;
+}
+
+#jumbotron-sign-up {
+  font-family: Chivo;
+  background: #A3E4A1;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px grey;
+  padding: 10px 25px 10px 25px;
+}
+
+#jumbotron-laptop {
+  width: 60%;
+}
+
+#jumbotron-image {
+  margin-top: 30px;
+}
+
+/* Product Description */
+
+#product {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0px 50px 0px;
+  background: #DCDCDC;
+}
+
+#product-description {
+  font-size: 24px;
+  padding: 0 20% 0 20%;
+}
+
+/* Features */
+
+#features {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 50px 0px 50px 0px;
+}
+
+.feature-box {
+  text-align: center;
+  width: 33%;
+  padding: 0px 100px 0px 100px;
+}
+
+.feature-text {
+  font-size: 20px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 20px 0px 20px 50px;
+  background: #DCDCDC;
+}
+
+.footer-box {
+  width: 30%;
+}
